@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className='sticky w-full h-20 shadow-md md:shadow-none z-[100] px-5 md:px-12 pt-5 pb-5 md:pb-0'>
+    <header className='sticky w-full h-20 shadow-md md:shadow-none z-[100] px-5 md:px-12'>
       <div className='flex items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <a>
