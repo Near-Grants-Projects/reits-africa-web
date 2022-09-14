@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins;
+  }
+}
+
+@layer components {
+  .group {
+    @apply hover:border-b-2 border-red-500 ml-10 lg:ml-40;
+  }
+}
