@@ -9,9 +9,9 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 export default function Hero() {
   return (
     <section>
-      <div className='flex flex-col bg-[#153048] px-5 md:px-12 pt-10 md:pt-20 pb-20 min-h-screen'>
-        <div className='left w-1/2 text-white'>
-          <h1 className='text-[48px] font-bold leading-tight'>
+      <div className='flex flex-col bg-[#153048] px-5 md:px-12 pt-16 md:pt-20 min-h-screen'>
+        <div className='left w-full lg:w-1/2 text-white'>
+          <h1 className='text-3xl lg:text-[48px] font-bold leading-tight'>
             Find the home or investment plan that suits you.
           </h1>
           <p className='text-xl max-w-lg mt-5 font-thin'>
@@ -22,7 +22,7 @@ export default function Hero() {
 
         {/*Form  */}
         <form className='z-50'>
-          <div className='flex md:pl-10 gap-3 py-6 mt-5 bg-white rounded-md shadow-lg w-3/5'>
+          <div className='flex md:pl-10 gap-x-2.5 gap-y-2.5 py-6 mt-5 bg-white rounded-md shadow-lg w-full lg:w-3/5 px-4'>
             <div className='mb-3 w-full md:w-10/12 xl:w-96'>
               <div className='relative'>
                 <MdKeyboardArrowDown className='absolute top-10 right-2 w-5 h-5 text-[#817C8E]' />
@@ -36,7 +36,7 @@ export default function Hero() {
                 className='form-select form-select-lg mb-3 text-[#A1A7A8] appearance-none block  w-full h-12 px-6 pl-3 text-[15px] font-normal text-gray-700bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-gray-600 focus:outline-none'
                 aria-label='.form-select-lg example'
               >
-                <option selected>Select</option>
+                <option>Select</option>
                 <option value='1'>Buy</option>
                 <option value='2'>Rent</option>
               </select>
@@ -55,7 +55,7 @@ export default function Hero() {
                 className='form-select form-select-lg mb-3 text-[#A1A7A8] appearance-none block  w-full h-12 px-6 pl-3 text-[15px] font-normal text-gray-700bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-gray-600 focus:outline-none'
                 aria-label='.form-select-lg example'
               >
-                <option selected>Property Type</option>
+                <option>Property Type</option>
                 <option value='1'>Duplex</option>
                 <option value='2'>Shotlets</option>
               </select>
@@ -74,7 +74,7 @@ export default function Hero() {
                 className='form-select form-select-lg mb-3 text-[#A1A7A8] appearance-none block  w-full h-12 px-6 pl-3 text-[15px] font-normal text-gray-700bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-gray-600 focus:outline-none'
                 aria-label='.form-select-lg example'
               >
-                <option selected>All Cities</option>
+                <option>All Cities</option>
               </select>
             </div>
 
@@ -86,7 +86,7 @@ export default function Hero() {
           </div>
         </form>
 
-        <div className='absolute top-15 right-0 w-2/4'>
+        <div className='hidden lg:block absolute top-15 right-0 w-2/4'>
           <Image src={'/bgc.png'} width={580} height={480} alt='hero-image' />
         </div>
       </div>
