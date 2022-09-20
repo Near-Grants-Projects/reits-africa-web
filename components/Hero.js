@@ -9,7 +9,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 export default function Hero() {
   return (
     <section>
-      <div className='flex flex-col bg-[#153048] px-5 md:px-12 pt-16 md:pt-20 min-h-screen'>
+      <div className='flex flex-col bg-[#153048] px-5 md:px-12 pt-16 md:pt-20'>
         <div className='left w-full lg:w-1/2 text-white'>
           <h1 className='text-3xl lg:text-[48px] font-bold leading-tight'>
             Find the home or investment plan that suits you.

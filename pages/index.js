@@ -2,7 +2,7 @@ import Hero from '@/components/Hero';
 import Invest from '@/components/Invest';
 import Layout from '@/components/Layout';
 import Properties from '@/components/Properties';
-// import Services from '@/components/Services';
+import Services from '@/components/Services';
 
 export default function HomePage() {
   return (
@@ -10,7 +10,7 @@ export default function HomePage() {
       <Hero />
       <Properties />
       <Invest />
-      {/* <Services /> */}
+      <Services />
     </Layout>
   );
 }
