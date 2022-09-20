@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Invest from '@/components/Invest';
 import Layout from '@/components/Layout';
@@ -11,6 +12,7 @@ export default function HomePage() {
       <Properties />
       <Invest />
       <Services />
+      <Footer />
     </Layout>
   );
 }
