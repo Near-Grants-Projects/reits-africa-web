@@ -39,7 +39,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link href='/account/register'>
-                <a className='bg-[#EC3335] text-white rounded py-2 px-4 shadow-lg'>
+                <a className='bg-[#EC3335] text-white rounded py-2 px-4 shadow-lg hover:bg-red-600'>
                   Get Started
                 </a>
               </Link>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Invest() {
   return (
@@ -21,9 +22,12 @@ export default function Invest() {
           </p>
 
           <div className='mt-5'>
-            <button className='bg-[#EC3335] text-white inline-block px-6 py-2.5 border-red-600 font-medium text-[15px] leading-tight rounded hover:bg-black hover:bg-opacity-5 border focus:outline-none focus:ring-0 transition duration-150 ease-in-out shadow-lg'>
-              Signup as an Investor
-            </button>
+            <Link href='/account/register'>
+              <a className='bg-[#EC3335] text-white inline-block px-6 py-2.5 border-red-600 font-medium text-[15px] leading-tight rounded hover:bg-black hover:bg-opacity-5 border focus:outline-none focus:ring-0 transition duration-150 ease-in-out shadow-lg'>
+                {' '}
+                Signup as an Investor
+              </a>
+            </Link>
           </div>
         </div>
       </div>
