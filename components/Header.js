@@ -35,7 +35,7 @@ const Navbar = () => {
               <Link href='#'>Exchange</Link>
             </li>
             <li className='group'>
-              <Link href='#'>Login</Link>
+              <Link href='/account/login'>Login</Link>
             </li>
             <li>
               <Link href='/account/register'>
@@ -107,11 +107,11 @@ const Navbar = () => {
               </li>
 
               <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                <Link href='#'>Login</Link>
+                <Link href='/account/login'>Login</Link>
               </li>
 
               <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                <Link href='#' className='bg-[#EC3335]'>
+                <Link href='/account/register' className='bg-[#EC3335]'>
                   Get Started
                 </Link>
               </li>

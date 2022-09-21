@@ -155,7 +155,7 @@ export default function Register() {
               Register
             </button>
 
-            <div className='text-center mt-4 text-[#1A202C]'>
+            <div className='text-center my-4 text-[#1A202C]'>
               Already have an account?{' '}
               <Link href='/account/login'>
                 <a className='text-red-600'>Log in</a>
