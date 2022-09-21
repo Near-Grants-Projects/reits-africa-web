@@ -5,7 +5,7 @@ import Layout from '@/components/Layout';
 export default function Login() {
   return (
     <Layout title='Login'>
-      <section className='bg-[#F8F8F8] py-10 min-h-screen'>
+      <section className='bg-[#F8F8F8] px-3 py-10 min-h-screen'>
         <div className='block p-6 max-w-md mx-auto rounded-lg shadow-lg bg-white'>
           <div className='grid place-items-center py-10'>
             <h2 className='text-[21px] font-semibold text-black'>
