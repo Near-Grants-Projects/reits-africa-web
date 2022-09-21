@@ -38,7 +38,7 @@ const Navbar = () => {
               <Link href='#'>Login</Link>
             </li>
             <li>
-              <Link href='#'>
+              <Link href='/account/register'>
                 <a className='bg-[#EC3335] text-white rounded py-2 px-4 shadow-lg'>
                   Get Started
                 </a>
