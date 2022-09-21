@@ -20,8 +20,8 @@ export default function Services() {
 
       <div className='grid grid-cols-1 md:grid-cols-2 w-full lg:w-1/2'>
         {services.map((item) => (
-          <div className='mt-10'>
-            <div className='wrapper flex gap-x-3'>
+          <div key={item.id} className='mt-10'>
+            <div className='flex gap-x-3'>
               <img src={item.img} alt='' />
 
               <div className='flex flex-col'>
